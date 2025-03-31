@@ -1,5 +1,7 @@
-Q-Learning Maze Solver
-Overview
+## Q-Learning Maze Solver
+
+# Overview
+
 This project implements a maze solver using Q-Learning, a reinforcement learning technique. The solver can generate random mazes, train an agent to find the optimal path, and visualize the solution.
 Features
 
