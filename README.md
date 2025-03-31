@@ -1,6 +1,6 @@
-## Q-Learning Maze Solver
+# Q-Learning Maze Solver
 
-# Overview
+## Overview
 
 This project implements a maze solver using Q-Learning, a reinforcement learning technique. The solver can generate random mazes, train an agent to find the optimal path, and visualize the solution.
 Features
@@ -28,16 +28,16 @@ Generate and Solve a Maze
 pythonCopyfrom maze_solver.maze_generator import generate_maze
 from maze_solver.maze_solver import MazeSolver
 
-# Generate a 20x20 maze
+## Generate a 20x20 maze
 maze = generate_maze(20, 20)
 
-# Create a solver
+## Create a solver
 solver = MazeSolver(maze)
 
-# Train the solver
+## Train the solver
 solver.train(episodes=20000)
 
-# Visualize the solution
+## Visualize the solution
 solver.visualize_solution()
 Customization
 You can customize the Q-Learning parameters:
